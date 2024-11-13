@@ -1,0 +1,22 @@
+.partner-left {
+  flex: 1;
+}
+
+.partner-right {
+  flex: 1;
+}
+
+.partner-right span {
+  font-size: 2rem;
+}
+.partner-right p {
+  margin: 1rem 0;
+}
+
+@media (max-width: 768px) {
+  .partner-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: justify;
+  }
+}

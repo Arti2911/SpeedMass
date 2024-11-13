@@ -1,0 +1,32 @@
+.inn-container {
+  background: var(--blue-gradient);
+  margin: 0 1rem;
+  width: 95%;
+  margin: 2rem auto;
+  border-radius: 50px;
+}
+.inn-left {
+  width: 80%;
+  margin-right: 2rem;
+}
+
+.inn-left h1 {
+  font-size: 2.8rem;
+  color: #fff;
+}
+.inn-left p {
+  color: #b4b4b4;
+  margin: 1rem;
+}
+.inn-right {
+  width: 20%;
+}
+@media (max-width: 768px) {
+  .inn-left {
+    width: 100%;
+    text-align: center;
+  }
+  .inn-right img {
+    display: none;
+  }
+}

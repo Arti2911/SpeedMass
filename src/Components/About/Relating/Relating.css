@@ -1,0 +1,18 @@
+.r-container {
+  background: var(--blue-gradient);
+  border-radius: 50px;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.r-container h1 {
+  font-size: 2rem;
+  color: #fff;
+  padding: 0.8rem;
+  margin: auto;
+}
+
+.r-container p {
+  color: #c8c7c7;
+  margin: 1rem 0;
+}

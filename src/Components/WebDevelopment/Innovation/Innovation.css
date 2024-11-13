@@ -1,0 +1,28 @@
+/* left side */
+.inno-left {
+  flex: 1;
+}
+
+.inno-left span:nth-child(1) {
+  font-size: 2rem;
+}
+
+.inno-left span:nth-child(2) {
+  font-size: 2.8rem;
+  margin: 0.2rem 0;
+}
+.inno-left p {
+  margin: 1rem;
+}
+
+/* right side */
+.inno-right {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .inno-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}

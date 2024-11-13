@@ -1,0 +1,58 @@
+.client-left {
+  width: 50%;
+  margin-right: 2rem;
+}
+.client-left img {
+  width: 100%;
+}
+.client-right {
+  width: 50%;
+  text-align: justify;
+}
+
+.client-right .box {
+  border: 1px solid rgb(224, 222, 222);
+  margin: 2rem 0;
+  border-radius: 20px;
+  padding: 1rem;
+}
+.client-right .comma {
+  font-size: 3rem;
+}
+.name > span {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+.flexMargin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box:hover {
+  box-shadow: 1px 1px;
+}
+
+@media (max-width: 768px) {
+  .client-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .client-left {
+    width: 100%;
+  }
+  .client-right {
+    width: 100%;
+  }
+}
+
+@media (max-width: 510px) {
+  .flexMargin {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .flexMargin img {
+    margin: 0.5rem 0;
+  }
+}

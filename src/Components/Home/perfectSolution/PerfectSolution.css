@@ -1,0 +1,57 @@
+.perfect-left {
+  margin-top: 5rem;
+}
+.perfect-left h1 {
+  padding: 1rem 0;
+}
+
+.perfect-left button {
+  margin: 1rem 0;
+}
+
+.perfect-right > div {
+  border: 1px solid rgb(237, 234, 234);
+  border-radius: 15px;
+  padding: 1rem 1rem;
+  margin: 0.8rem;
+}
+.perfect-right i {
+  font-size: 2rem;
+}
+.perfect-right h1 {
+  font-size: 2rem;
+}
+.perfect-right p {
+  font-size: 0.7rem;
+}
+
+.perfect-right div:hover {
+  background: var(--blue-gradient);
+  color: #fff;
+}
+.perfect-right div:hover h1,
+.perfect-right div:hover i {
+  color: #fff;
+}
+.perfect-right div:hover p {
+  color: #e1dddd;
+}
+
+.marginBottom {
+  position: relative;
+  top: 50px;
+}
+
+@media (max-width: 768px) {
+  .perfect-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .perfect-left {
+    width: 100%;
+  }
+  .perfect-right {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}

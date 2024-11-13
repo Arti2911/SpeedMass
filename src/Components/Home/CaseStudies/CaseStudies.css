@@ -1,0 +1,50 @@
+.case-container {
+  padding: 2rem 1rem;
+}
+
+.case-container h1 {
+  margin: 2rem 0;
+}
+
+.case-left {
+  width: 25%;
+  margin-right: 2rem;
+}
+.case-left button {
+  margin: 0.2rem 0;
+  width: 100%;
+}
+
+.case-right {
+  flex: 1;
+}
+
+.case-right-left {
+  margin: 0 2rem;
+}
+
+.case-right-left h2 {
+  padding: 1rem 0;
+}
+
+.case-right-left p {
+  padding: 2rem 0;
+}
+.case-right-right {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .case-container {
+    text-align: center;
+  }
+  .case-left {
+    width: 100%;
+  }
+  .case-div {
+    display: grid;
+  }
+  .case-right-right {
+    display: none;
+  }
+}

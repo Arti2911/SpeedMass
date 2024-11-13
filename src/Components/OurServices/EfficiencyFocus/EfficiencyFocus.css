@@ -1,0 +1,53 @@
+.effi-container {
+  background: var(--blue-gradient);
+  width: 95%;
+  border-radius: 50px;
+  margin: auto;
+}
+.effi-left {
+  width: 50%;
+  margin-right: 3rem;
+}
+.effi-container h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.effi-right {
+  width: 40%;
+}
+
+.small-div {
+  margin: 1rem 0;
+}
+.small-div i {
+  font-size: 2rem;
+  color: #fff;
+  background-color: rgba(229, 225, 225, 0.2);
+  border-radius: 50%;
+  padding: 1rem;
+  margin: 0 1rem;
+}
+
+.small-div h2 {
+  font-weight: 700;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .effi-container {
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .effi-left {
+    width: 100%;
+  }
+  .small-div {
+    width: 100%;
+  }
+  .effi-right {
+    width: 100%;
+  }
+}

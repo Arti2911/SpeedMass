@@ -1,0 +1,16 @@
+.heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.heading-container h1 {
+  font-size: 3rem;
+}
+
+@media (max-width: 768px) {
+  .heading-container {
+    text-align: center;
+  }
+}

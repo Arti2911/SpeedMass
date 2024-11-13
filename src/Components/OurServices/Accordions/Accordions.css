@@ -1,0 +1,55 @@
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 32px;
+}
+.main_div {
+  width: 100%;
+  padding: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 1px 0 rgba(17, 17, 26, 0.05), 0 0 8px rgba(17, 17, 26, 0.1);
+}
+.main_div h1 {
+  font-size: 2rem;
+}
+.main_div p {
+  font-size: 1rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.main_heading {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid rgb(224, 221, 221);
+  margin: 0.3rem 0;
+  border-radius: 10px;
+}
+
+.main_heading p {
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0 4px 16px rgba(17, 17, 26, 0.1),
+    0 16px 24px rgba(17, 17, 26, 0.1), 0 16px 56px rgba(17, 17, 26, 0.1);
+  background: #fff;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.answer {
+  padding: 30px 20px 40px 20px;
+  font-size: 15px;
+  word-spacing: 2px;
+  font-weight: 400;
+  line-height: 1.7;
+  background-color: #fcf5f5;
+  color: rgba(40, 37, 53);
+}
+
+@media (max-width: 768px) {
+  .main_heading h3 {
+    font-size: 1rem;
+  }
+}

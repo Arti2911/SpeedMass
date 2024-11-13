@@ -1,0 +1,58 @@
+.f-wrapper {
+  background-color: #fff;
+}
+.f-container {
+  background: var(--blue-gradient);
+  border-radius: 30px;
+  /* background-color: red; */
+  scale: 0.8;
+  transition: all ease .5s;
+}
+.f-container:hover{
+  scale: 0.9;
+}
+
+input,
+textarea {
+  width: 100%;
+  background-color: transparent;
+  border-bottom: 1px solid grey;
+  color: #fff;
+  margin: 0.3rem 0;
+  padding: 0.3rem 0;
+  outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #fff;
+}
+select > option {
+  color: #000;
+  padding: 0.2rem 1rem;
+  outline: none;
+  border: none;
+}
+select {
+  background-color: transparent;
+}
+
+.Select {
+  color: #fff;
+  border-bottom: 1px solid grey;
+  padding: 0.8rem 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+.btn1 {
+  background-color: #fff !important;
+  color: #000;
+  box-shadow: 0 0 2px snow;
+}
+
+#textarea{
+  resize: none;
+  margin-bottom: 15px;
+}

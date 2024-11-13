@@ -1,0 +1,37 @@
+.m-left {
+  width: 40%;
+  margin-right: 2.5rem;
+}
+.m-right {
+  width: 50%;
+}
+
+.twoBoxes {
+  padding: 2rem 0;
+}
+.m-box {
+  border: 1px solid rgb(227, 225, 225);
+  text-align: center;
+  padding: 1rem;
+  border-radius: 20px;
+  margin: 0 2rem;
+}
+.m-box:hover {
+  background: var(--blue-gradient);
+  color: #fff;
+}
+.m-box:hover span {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .m-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .m-right,
+  .m-left {
+    width: 100%;
+    margin: 2rem 0;
+  }
+}

@@ -1,0 +1,18 @@
+.dev-container h1 {
+  font-size: 3rem;
+  margin: 0.8rem 0;
+}
+
+.dev-container img {
+  width: 10rem;
+}
+
+@media (max-width: 768px) {
+  .cont {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .boxes {
+    width: 100%;
+  }
+}

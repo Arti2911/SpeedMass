@@ -1,0 +1,90 @@
+.contact-container {
+  border: 3px solid #1f3e72;
+  border-radius: 50px;
+  padding: 0;
+  width: 95%;
+  margin: auto;
+  /* flex-wrap: wrap; */
+}
+
+.contact-left {
+  width: 50%;
+  border-right: 1px solid #1f3e72;
+  background-color: #1f3e72;
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px;
+  color: #fff;
+  padding: 8rem 2rem;
+  margin-right: 2rem;
+  /* display: flex; */
+}
+
+.contact-left h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding-bottom: 3rem;
+}
+
+.contact-left .info i {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.contact-links {
+  margin-top: 5rem;
+}
+
+.contact-links i {
+  margin: 0.5rem;
+  font-size: 1.6rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0.8rem;
+  border-radius: 50%;
+}
+.contact-links i:hover {
+  background-color: #172640;
+}
+
+/* right side */
+.contact-right {
+  width: 50%;
+  text-align: justify;
+  margin: 1rem 2rem;
+}
+
+.contact-right .inputs {
+  margin: 0 1rem;
+}
+
+.contact-right .inputs .s-input {
+  margin: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.s-input label {
+  font-weight: 700;
+}
+.s-input input::placeholder,
+.s-input textarea::placeholder {
+  color: #585858;
+}
+.s-input select {
+  width: 250%;
+  border-bottom: 1px solid grey;
+  padding: 1rem 0;
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    flex-wrap: wrap;
+  }
+  .contact-left {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .contact-right {
+    width: 100%;
+  }
+}

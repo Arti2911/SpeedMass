@@ -1,0 +1,23 @@
+.all-app {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.app-container h1 {
+  font-size: 2rem;
+}
+.all-app img {
+  margin: 0 3rem;
+  width: 6rem;
+}
+
+@media (max-width: 768px) {
+  .all-app {
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,62 @@
+.dev-container i {
+  font-size: 4rem;
+  background-color: #1f3e72;
+  border-radius: 50%;
+  padding: 0.5rem;
+  color: #fff;
+  margin-right: 1rem;
+}
+
+.boxes {
+  width: 30%;
+  border: 1px solid rgb(192, 189, 189);
+  padding: 1rem;
+  margin: 0 1rem;
+  border-radius: 20px;
+}
+
+.boxes:hover {
+  background: var(--blue-gradient);
+  transition: all 500ms ease-in-out;
+}
+
+.boxes:hover i {
+  background-color: rgba(181, 186, 230, 0.4);
+}
+
+.boxes:hover span {
+  color: #fff;
+}
+
+.boxes:hover p {
+  color: #cfcdcd;
+}
+.dev-container .content {
+  color: #1f3e72;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 900px) {
+  .dev-container i {
+    font-size: 2rem;
+  }
+  .boxes span {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .dev-container .boxes div {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 680px) {
+  .multi-comp {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .boxes {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+}

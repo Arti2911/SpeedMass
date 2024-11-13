@@ -1,0 +1,25 @@
+.h-wrapper {
+  background: #fff;
+  /* height: 100vh; */
+  padding: 1rem 0;
+}
+
+/* .h-container {
+  flex: 1;
+} */
+
+.h-left {
+  flex: 1;
+}
+.h-right {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .h-container {
+    flex-wrap: wrap;
+  }
+  .h-right {
+    margin: 1rem 0;
+  }
+}

@@ -1,0 +1,41 @@
+.multiple-container {
+  background-color: #fff;
+}
+
+.popular-post {
+  width: 100%;
+  flex: 1;
+}
+.popular-post h1 {
+  font-size: 2rem;
+  text-align: left;
+}
+
+.recent-post {
+  flex: 1;
+  width: 50%;
+}
+.recent-post .whole {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .post-wrapper {
+    width: 100%;
+    margin: 1rem 0;
+  }
+  .multiple-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+  }
+  .popular-post {
+    width: 90%;
+    align-items: center;
+  }
+  .recent-post {
+    width: 90%;
+    align-items: center;
+  }
+}

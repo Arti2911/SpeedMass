@@ -1,0 +1,42 @@
+.c-wrapper {
+  background: #fff;
+  /* height: 100vh; */
+  padding: 1rem 0;
+}
+
+.c-left {
+  flex: 1;
+}
+.c-right {
+  flex: 1;
+}
+.c-right > img {
+  width: 25em;
+}
+.c-top {
+  display: flex;
+  gap: 9rem;
+  justify-content: start;
+}
+.c-top i {
+  font-size: 2rem;
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .c-container {
+    /* flex-wrap: wrap; */
+    display: grid;
+    text-align: center;
+  }
+  .c-left {
+    text-align: center;
+  }
+  .c-right {
+    margin: 1rem 0;
+  }
+  .c-top {
+    gap: 0rem;
+    flex-wrap: wrap;
+  }
+}

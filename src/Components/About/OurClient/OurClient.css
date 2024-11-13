@@ -1,0 +1,38 @@
+.our-container {
+  justify-content: space-around;
+}
+.our-left {
+  flex: 1;
+  padding-right: 2rem;
+}
+.our-left h1 {
+  font-size: 2rem;
+  padding: 0.6rem 0;
+}
+
+.our-left p {
+  padding: 1rem 0;
+  text-align: justify;
+}
+.our-right {
+  position: relative;
+}
+.our-right .img1 {
+  width: 90%;
+}
+.our-right .img2 {
+  width: 50%;
+  position: absolute;
+  bottom: -50px;
+  left: -30px;
+}
+
+@media (max-width: 768px) {
+  .our-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .our-right {
+    width: 100%;
+  }
+}

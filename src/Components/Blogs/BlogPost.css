@@ -1,0 +1,10 @@
+.Articles-container div {
+  margin: 1rem 0;
+}
+
+@media (max-width: 768px) {
+  .Articles-container div {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}

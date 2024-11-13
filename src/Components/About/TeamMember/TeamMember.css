@@ -1,0 +1,55 @@
+.Team-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.team-outer {
+  width: 100%;
+  margin: 2rem 0;
+  justify-content: space-between;
+}
+
+.team-outer div {
+  margin: 0 1rem;
+}
+
+.img {
+  margin-top: 2rem;
+  position: relative;
+  background-color: rgb(217, 211, 211);
+  border-radius: 40px;
+}
+
+.lorem {
+  width: 80%;
+  margin-left: 10%;
+  background: var(--blue-gradient);
+  padding: 1rem;
+  border-radius: 25px;
+  color: #fff;
+  position: absolute;
+  bottom: -20px;
+}
+
+.team-inner:hover .lorem {
+  bottom: 35px;
+  transition: all 500ms ease-in-out;
+  box-shadow: 0 0 50px #1f3e72, 0 0 100px #1f3e72, 0 0 150px #1f3e72,
+    0 0 200px #1f3e72;
+}
+
+@media (max-width: 795px) {
+  .team-outer {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+  }
+  .team-inner div {
+    margin: 1rem 0;
+  }
+  .lorem {
+    left: 1.5rem;
+    bottom: -10%;
+  }
+}
